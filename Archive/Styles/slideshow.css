@@ -1,0 +1,144 @@
+/* CSS Document */
+
+.slideshow {
+	height: 100%;
+	cursor: default;
+	font-size: 11px;
+	line-height: 16px;
+	width: 705px;
+}
+
+.slideshow div.wrap {
+	width: 705px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.slideshow div#top div#nav {
+	float: left;
+	clear: both;
+	width: 705px;
+	height: 52px;
+	margin: 22px 0 0;
+	background: url url('/sfimages/accslideshow/nav-bg.png') 0 0 no-repeat;
+}
+
+.slideshow div#top div#nav ul {
+	float: left;
+	width: 412px;
+	height: 52px;
+	list-style-type: none;
+}
+
+.slideshow div#nav ul li {
+	float: left;
+	height: 52px;
+}
+
+.slideshow div#nav ul li a {
+	border: 0;
+	height: 52px;
+	display: block;
+	line-height: 52px;
+	text-indent: -9999px;
+}
+
+.slideshow div#header {
+	margin: -1px 0 0;
+}
+
+.slideshow div#header div.wrap {
+	height: 512px;
+}
+
+.slideshow div#header div#slide-holder {
+	z-index: 40;
+	width: 705px;
+	height: 512px;
+	position: absolute;
+}
+
+.slideshow div#header div#slide-holder div#slide-runner {
+	width: 705px;
+	height: 512px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.slideshow div#header div#slide-holder img {
+	margin: 0;
+	display: none;
+	position: absolute;
+}
+
+.slideshow div#header div#slide-holder div#slide-header {
+	left: 0;
+	bottom: 428px;
+	width: 685px;
+	height: 55px;
+	z-index: 40;
+	position: absolute;
+	background: url('/sfimages/accslideshow/slide-bg.png') 0 0;
+	color: #e7e7e7;
+	padding: 10px;
+	font-size: 13px;
+}
+
+.slideshow div#header div#slide-holder div#slide-header h1 {
+	margin-bottom: 8px;	
+	font-size: 160%;
+}
+
+.slideshow div#header div#slide-holder div#slide-controls {
+	left: 0;
+	bottom: 8px;
+	width: 705px;
+	height: 46px;
+	display: none;
+	position: absolute;
+	background: url('/sfimages/accslideshow/slide-bg.png') 0 0;
+}
+
+.slideshow div#header div#slide-holder div#slide-controls p.text {
+	float: left;
+	color: #e7e7e7;
+	display: inline;
+	font-size: 10px;
+	line-height: 16px;
+	margin: 15px 0 0 10px;
+	text-transform: uppercase;
+}
+
+.slideshow div#header div#slide-holder div#slide-controls p#slide-nav {
+	float: right;
+	height: 24px;
+	display: inline;
+	margin: 11px 15px 0 0;
+}
+
+.slideshow div#header div#slide-holder div#slide-controls p#slide-nav a {
+	float: left;
+	width: 24px;
+	height: 24px;
+	display: inline;
+	font-size: 11px;
+	margin: 0 5px 0 0;
+	line-height: 24px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	color: #e7e7e7;
+}
+
+.slideshow div#header div#slide-holder div#slide-controls p#slide-nav a.on {
+	background-position: 0 -24px;
+}
+.slideshow div#header div#slide-holder div#slide-controls p#slide-nav a {
+	background-image: url('/sfimages/accslideshow/slide-nav.png');
+}
+
+.slideshow div#nav ul li a {
+	background: url('/sfimages/accslideshow/slide-nav.png') no-repeat;
+}

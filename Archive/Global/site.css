@@ -1,0 +1,1120 @@
+/* CSS Document */
+
+#langsWrapper {
+	/* display: none; */
+}
+
+div#shWrap {
+	overflow: hidden !important;	
+}
+
+html {
+	height: 100%;
+	background-color: #3B3B3B;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #3B3B3B;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+h2, h3 {
+	color: #3D3D3D;	
+}
+
+/* PAGE WRAPPER */
+
+.wrapper {
+    width: 920px;
+    margin: 20px auto;
+}
+
+/* PAGE HEADER STYLES */
+
+.i18n {
+	margin-top: 53px;
+	margin-left: 20px;
+	width: 530px;	
+	font-size: 10px;
+	color: #69696a;
+	float: left;
+}
+
+.i18n a, .i18n a:visited {
+	color: #69696a;
+	text-decoration: none;	
+}
+
+.i18n a:hover {
+	color: #cecece;	
+}
+
+.i18n ul {
+	list-style:  none;
+}
+
+.logo {
+	margin-right: 20px;
+    height: 65px;
+    float: right;
+}
+
+div#shWrap .logo {
+	float: left;
+	margin-right: 0;
+	margin-left: 20px;
+	height: inherit;
+}
+
+div#shWrap div#shCustom {
+	margin: 0 20px 0 0;
+    width: 377px;
+}
+
+/* SIDEBAR STYLES */
+
+.sidebar {
+    text-align: center;
+	color: #69696a;
+	width: 195px;
+	float: left;
+	padding: 9px 0;
+	background: #363636;
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+} 
+
+.sidebar .masterLinks {
+    margin-top: 6px;
+}
+
+.sidebar span.button a {
+	margin: 2px 13px;	
+	display: block;
+	height: 68px;
+	width: 169px;
+}
+
+.sidebar p {
+	font-size: 9px;
+	margin: 0 0 15px 0;
+	padding: 0;	
+}
+
+.sidebar p.last {
+	margin-bottom: 10px;	
+}
+
+.sidebar span.button a.accraply {
+	background: url('/sfimages/accraplydesign/button_accraply.jpg') no-repeat 0 0;
+}
+
+.sidebar span.button a.stanford {
+	background: url('/sfimages/accraplydesign/button_stanford.jpg') no-repeat 0 0;
+}
+
+.sidebar span.button a.trine {
+	background: url('/sfimages/accraplydesign/button_trine.jpg') no-repeat 0 0;
+}
+
+.sidebar span.button a.graham {
+	background: url('/sfimages/accraplydesign/button_graham.jpg') no-repeat 0 0;
+}
+
+.sidebar span.button a.psu {
+	background: url('/sfimages/accraplydesign/button_psu.jpg') no-repeat 0 0;
+}
+
+.sidebar span.button a.accraply:hover,
+.sidebar span.button a.stanford:hover,
+.sidebar span.button a.trine:hover,
+.sidebar span.button a.graham:hover,
+.sidebar span.button a.psu:hover {
+	background-position: 0 -68px;
+}
+
+.widerSidebar {
+	width: 295px;
+	background: none;
+	padding: 0;
+}
+
+/* PRODUCT SIDEBAR STYLES */
+
+.sidebar .productSidebar {
+	margin: 0 0 15px 0;
+	padding: 15px 0;
+	background: #ffffff;
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;		
+}
+
+.sidebar .productSidebar h3 {
+	border-bottom: 1px solid #3D3D3D;
+    font-size: 16px;
+    margin: 0 30px 20px;
+    padding: 0 0 2px;	
+}
+
+.sidebar .productSidebar p.literature {
+    background: url("/sfimages/image-accraply/pdf.png?Status=Master") no-repeat scroll 90px center transparent;
+	padding: 2px 0 2px 130px;
+	margin: 10px 0;
+	font-size: 13px;
+    text-align: left;
+}
+
+.sidebar .productSidebar p.literature a {
+	display: block;
+	margin: 4px 0;	
+}
+
+.sidebar .productSidebar p.contactus {
+    background: url('/sfimages/image-accraply/mail.png?Status=Master') no-repeat scroll 90px center transparent;
+	padding: 2px 0 2px 130px;
+	margin: 10px 0;
+	font-size: 13px;
+	text-align: left;
+}
+
+.sidebar .productSidebar p.quote {
+    background: url('/sfimages/accraplydesign/note_edit.png?Status=Master') no-repeat scroll 90px center transparent;
+	padding: 2px 0 2px 130px;
+	margin: 10px 0;
+	font-size: 13px;
+	text-align: left;
+}
+
+.sidebar .productSidebar .productLinks {
+	margin-top: 10px;	
+}
+
+.sidebar .productSidebar .productLinks p {
+	margin-top: 20px;	
+}
+
+/* MAIN TITLE STYLES */
+
+.mainTitle {
+	margin-bottom: 15px;	
+}
+
+.mainTitle .left {
+	width: 5px;
+	height: 112px;
+	float: left;
+	background: url('/sfimages/accraplydesign/sub_homepage_left.jpg') no-repeat;
+}
+
+.mainTitle .center {
+	width: 695px;
+	height: 112px;
+	float: left;
+	background: url('/sfimages/accraplydesign/sub_homepage_header_background.jpg');
+}
+
+.mainTitle .right {
+	width: 5px;
+	height: 112px;
+	float: right;
+	background: url('/sfimages/accraplydesign/sub_homepage_right.jpg') no-repeat;
+}
+
+.mainTitle .center .breadcrumbs {
+	font-size: 10px;
+    margin: 4px 5px 0 5px;
+    text-align: left;
+}
+
+.mainTitle .center .breadcrumbs a,
+.mainTitle .center .breadcrumbs a:visited {
+	color: #3D3D3D;	
+	text-decoration: none;	
+}
+
+.mainTitle .center .accraply a:hover {
+	color: #e31937;	
+}
+
+.mainTitle .center .stanford a:hover {
+	color: #004B85;	
+}
+
+.mainTitle .center .trine a:hover {
+	color: #008576; 	
+}
+
+.mainTitle .center .graham a:hover {
+	color: #002b7f;
+}
+
+.mainTitle .center .sleevit a:hover {
+	color: rgb(79,33,112);
+}
+
+.mainTitle .center .psu a:hover {
+	color: #e31937;	
+}
+
+.mainTitle .center .brandLogo {
+	margin-top: 24px;
+    text-align: center;
+    width: 695px;	
+}
+
+.mainTitle .center .brandLogo img {
+	margin: 0 25px;
+}
+
+.mainTitle .widerCenter, .mainTitle .widerCenter .brandLogo {
+	width: 910px;
+}
+
+/* MAIN BOTTOM TITLE STYLES */
+
+.mainBottomTitle {
+	margin-top: 15px;
+}
+
+.mainBottomTitle .center .brandLogo {
+	margin-top: 24px;
+    text-align: center;
+    width: 695px;	
+}
+
+.mainBottomTitle .center .brandLogo img {
+	margin: 0 25px;
+}
+
+/* MAIN CONTAINER STYLES */
+
+.mainContainer {
+    width: 705px;
+    float: right;
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+} 
+
+.mainContainer .brandHomepage {
+	width: 707px;	
+}
+
+.mainContainer .imgBkgFullWidth {
+	width: 920px;	
+}
+
+.mainContainer .brandHomepage .accraply {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_accraply.jpg');
+}
+
+.mainContainer .brandHomepage .stanford {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_stanford.jpg');
+}
+
+.mainContainer .brandHomepage .trine {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_trine.jpg');
+}
+
+.mainContainer .brandHomepage .graham {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_graham.jpg');
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+}
+
+.mainContainer .brandHomepage .sleevit {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_sleevit.jpg');
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+}
+
+.mainContainer .brandHomepage .psu1 {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_1.jpg');
+}
+
+.mainContainer .imgBkgFullWidth .psu1 {
+	height: 580px;	
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_1_alt.jpg');
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+}
+
+.mainContainer .brandHomepage .psu2 {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_2.jpg');
+}
+
+.mainContainer .imgBkgFullWidth .psu2 {
+	height: 580px;	
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_2_alt.jpg');
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+}
+
+.mainContainer .brandHomepage .psu3 {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_3.jpg');
+}
+
+.mainContainer .imgBkgFullWidth .psu3 {
+	height: 580px;	
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_3_alt.jpg');
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+}
+
+.mainContainer .brandHomepage .psu4 {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_4.jpg');
+}
+
+.mainContainer .imgBkgFullWidth .psu4 {
+	height: 580px;	
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_4_alt.jpg');
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+}
+
+.mainContainer .brandHomepage .psu5 {
+	height: 380px;
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_5.jpg');
+}
+
+.mainContainer .imgBkgFullWidth .psu5 {
+	height: 580px;	
+	background: no-repeat url('/sfimages/accraplydesign/subpage_main_psu_5_alt.jpg');
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+}
+
+.mainContainer .brandHomepage .content, 
+.mainContainer .imgBkgFullWidth .content {
+	color: #E7E7E7;
+    line-height: 20px;
+    margin-left: 451px;
+    margin-right: 20px;
+    padding-top: 15px;	
+}
+
+.mainContainer .imgBkgFullWidth .content {
+	margin-left: 520px;
+	width: 360px !important;
+	padding: 15px 20px;
+}
+
+.mainContainer .brandHomepage .content h2,
+.mainContainer .imgBkgFullWidth .content h2 {
+	color: #E7E7E7;
+    font-size: 22px;
+    margin-bottom: 15px;	
+}  
+
+.mainContainer .brandHomepage .content a,
+.mainContainer .brandHomepage .content a:visited,
+.mainContainer .imgBkgFullWidth .content a,
+.mainContainer .imgBkgFullWidth .content a:visited {
+	color: #E7E7E7;
+}
+
+.mainContainer .brandHomepage .content a:hover,
+.mainContainer .imgBkgFullWidth .content a:hover {
+	color: #e31937; 
+}
+
+.shorterMainContainer {
+	width: 605px;
+}
+
+.fullPageMainContainer {
+	width: 920px;
+}
+
+/* MAIN CONTAINER FOOTER */
+
+.mainContainer .footer {
+	background: #666666;
+	border: 1px solid #666666;
+	text-align: center;
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;
+}
+
+.mainContainer .footer img {
+	margin: 20px 20px 0 20px;	
+}
+
+/* DETAIL PAGE */
+
+.detailPage .content {
+	color: #3D3D3D;
+	padding: 10px 15px;
+	background: #ffffff;
+	-moz-border-radius: 4px; /* Mozilla */
+    -webkit-border-radius: 4px; /* Webkit */
+    border-radius: 4px;	
+}
+
+.detailPage .content h2 {
+    font-size: 22px;
+    margin-bottom: 15px;	
+}  
+
+.detailPage .content p {
+	margin-bottom: 10px;
+	line-height: 20px;	
+}
+
+.detailPage li {
+	line-height: 2;
+    list-style-type: disc;
+    margin-left: 25px;	
+	padding-left: 5px;
+}
+
+.detailPage .last {
+	border-bottom: none; /* Used Primarily for the productBlock class */	
+}
+
+.detailPage .titleImage {
+	float: left;
+	margin: 30px 0 -10px 20px;
+	width: 250px;
+}
+
+.detailPage .titleText {
+	background: none repeat scroll 0 0 #3B3B3B;
+    color: #E7E7E7;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 80px -15px 0;
+    padding: 20px 50px;
+    text-align: right;
+}
+
+.detailPage .titleText h1 {
+    font-size: 18px;	
+}
+
+.detailPage .titleText h2 {
+    color: #E7E7E7;
+    font-size: 12px;
+    margin-top: 2px;	
+	margin-bottom: 0;
+}
+
+.detailPage .titleText p {
+	margin: 0;
+}
+
+.detailPage .mainBlock {	
+	text-align: justify;
+}
+
+/* DETAIL PAGE TABLE STYLES */
+
+.detailPage table {
+	width: 100%;	
+}
+
+.detailPage table th {
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;	
+}
+
+/* PRODUCT BLOCK */
+
+.productBlock {
+	border-bottom: 1px solid #3B3B3B;	
+	margin-top: 15px;
+}
+
+.productBlock .left {
+	float: left;
+	width: 100px;
+}
+
+.productBlock .right {
+	margin-left: 130px;
+}
+
+.mainContainer .detailPage .content .productBlock h2 {
+	font-size: 125%;	
+	text-decoration: underline;
+}
+
+.productBlock h4 {
+	font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;	
+}
+
+.productBlock h5 {
+	display: inline;
+	font-weight: bold;
+}
+
+.productBlock .subLinks {
+	margin-top: -5px;
+	margin-bottom: 10px;	
+}
+
+/* PRODUCT PAGE */
+
+.productPage h3 {
+	font-size: 18px;
+    margin-top: -14px;
+	margin-bottom: 15px;
+}
+
+.productPage h4 {
+	background: url("/sfimages/image-accraply/general_productheader_3236.jpg?Status=Master") no-repeat scroll 0 85% transparent;
+    font-size: 13px;
+    padding: 8px 6px 11px 1px;
+	font-weight: bold;
+}
+
+.productPage p {
+	margin: 0 0 12px;
+    padding: 4px 8px;	
+}
+
+.productPage p.small {
+	font-size: 10px; 
+	margin-top: -10px;	
+}
+
+.mainContainer .productPage .content p.ul-title {
+	margin: 0 10px;
+	padding: 0;	
+}
+
+.productPage ul {
+	margin-bottom: 10px;	
+}
+
+.mainContainer .productPage li {
+	line-height: 1.3;	
+}
+
+.productPage table {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    margin: 4px 0 12px;
+    width: 95%;
+}
+
+.productPage table thead th {
+    border-bottom: 2px solid #CCCCCC;
+    padding: 2px 5px;
+    text-align: left;
+}
+
+.productPage table tbody th {
+    border-right: 2px solid #CCCCCC;
+    padding: 2px 15px;
+    text-align: right;
+    width: 22%;
+}
+
+.productPage table tbody td {
+    padding: 2px 5px;
+    width: 39%;
+}
+
+/* LITERATURE STYLES */
+
+.literature {
+	margin-bottom: 15px;	
+}
+
+.detailPage .literature h2 { 
+    font-size: 14px;
+    margin: 0;
+    padding: 4px;
+}
+
+.literature li {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+
+.literature dt.header, .literature dd.header {
+	background: none repeat scroll 0 0 #AEAEAE;	
+	margin: 4px 0 2px;
+    padding: 4px;
+	display: inline-block;
+	text-decoration: underline;
+	width: 618px;
+}
+
+.literature dt.header + dd  {
+	margin: 2px 4px;
+}
+
+.literature dd.header {
+    width: 120px;	
+}
+
+.literature dl dt.header:only-child {
+	width: 882px;
+}
+
+.literature dt, .literature dd {
+	background: none repeat scroll 0 0 #CECECE;	
+	margin: 2px 0;
+    padding: 4px 4px 5px 4px;
+	display: inline-block;
+	width: 618px;	
+}
+
+.literature dt + dd {
+	margin: 2px 4px;	
+}
+
+.literature dt a {
+	background: url("/sfimages/image-accraply/pdf.png?Status=Master") no-repeat scroll 0 0 transparent;	
+	background-size: 18px auto;
+    padding-left: 24px;
+	text-decoration: none;
+	padding-bottom: 1px;
+}
+
+.literature dd {
+	width: 120px;	
+}
+
+/* FORM STYLES */
+
+.sfFormTitle {
+	border-bottom-width: 2px; 
+	border-bottom-style: solid;
+    margin-top: 25px;
+    padding-bottom: 2px;
+	text-align: center;
+}
+
+.accraply .sfFormTitle {
+	border-bottom-color: #E31937;
+}
+
+.stanford .sfFormTitle {
+    border-bottom-color: #004B85;	
+}
+
+.trine .sfFormTitle {
+    border-bottom-color: #008576; 	
+}
+
+.graham .sfFormTitle {
+	border-bottom-color: #002b7f;
+}
+
+.sleevit .sfFormTitle {
+	border-bottom-color: rgb(79,33,112);
+}
+
+.sfFormBox, .sfFormDropdown, .sfFormRadiolist, .sfFormCheckboxlist {
+	margin: 0 0 10px 25px;	
+}
+
+.sfTxtLbl {
+    float: left;
+    font-weight: bold;
+    padding-right: 10px;
+    text-align: right;
+    width: 40%;	
+}
+
+.sfFieldWrp {
+	display: inline;
+    margin-left: 10px;
+}
+
+.sfFormRadiolist .sfTxtLbl, .sfFormCheckboxlist .sfTxtLbl {
+	margin-bottom: 4px;	
+}
+
+.sfRadioList label, .sfFormCheckboxlist label {
+	margin-right: 15px;	
+}
+
+.sfRadioList input, .sfFormCheckboxlist input {
+	margin-right: 4px;	
+}
+
+.sfFormBlock label {
+	display: none;	
+}
+
+.sfFormBlock textarea {
+	width: 98%;	
+}
+
+.sfCheckListBox, .sfRadioList {
+	display: block;
+    padding-left: 41%;
+}
+
+.sfFormCheckboxlist input, .sfFormRadiolist input {
+	margin-bottom: 14px;	
+}
+
+.sfExample {
+    display: inline;
+    font-size: 10px;
+    margin-left: 10px;
+	color: #888888;
+}
+
+.sfInlineWrapper {
+	display: inline;
+    margin-left: -20px;
+}
+
+.sfFormInstructions {
+    margin-top: 25px;
+    text-align: center;	
+}
+
+.sfFormSubmit {
+    margin: 0 25px 20px;
+    text-align: center;
+}
+
+.sfError {
+    color: red;
+    display: inline;
+    margin-left: 10px;	
+	font-size: 10px;
+}
+
+/* FEATURED BRANDS */
+
+.featuredBrands {
+	margin: 40px 0 -20px;
+}
+
+.featuredBrands h3 {
+	font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;	
+}
+
+.featuredBrands h4 {
+	font-weight: bold;
+    margin-bottom: 15px;	
+}
+
+.featuredBrands table {
+	width: 100%;	
+	margin-bottom: 20px;
+}
+
+.featuredBrands tr {
+	vertical-align: middle;	
+}
+
+.featuredBrands td {
+	text-align: center;	
+	padding: 0 0 10px;
+	vertical-align: middle;
+}
+
+/* LEGAL STYLES */
+
+.legal .content h2 {
+	margin-top: 10px;	
+}
+
+.legal h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;	
+}
+
+/* NEWS ROOM STYLES */
+
+.newsForm {
+	margin: -100px 0 10px 0;
+}
+
+.newsForm .RadGrid_Default {
+	margin-top: 5px;
+}
+
+.newsForm span[style="color:BlueViolet;"] {
+	color: #E31937 !important;
+}
+
+#MainContentPlaceHolder_C002_lblCompany,
+#MainContentPlaceHolder_C000_lblCompany,
+#MainContentPlaceHolder_C002_lblKeywords,
+#MainContentPlaceHolder_C000_lblKeywords,
+#MainContentPlaceHolder_C002_lblNewsType,
+#MainContentPlaceHolder_C000_lblNewsType,
+#MainContentPlaceHolder_C000_lblLocations,
+#MainContentPlaceHolder_C000_lblJobCategory {
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 105px;	
+}
+
+#MainContentPlaceHolder_C002_lblDivisionName,
+#MainContentPlaceHolder_C000_lblDivisionName,
+#MainContentPlaceHolder_C002_txtKeywords,
+#MainContentPlaceHolder_C000_txtKeywords,
+#MainContentPlaceHolder_C002_ddlNewsType,
+#MainContentPlaceHolder_C000_ddlNewsType {
+	margin-bottom: 10px;	
+}
+
+#MainContentPlaceHolder_C002_lblDivisionName,
+#MainContentPlaceHolder_C000_lblDivisionName {
+    display: block;
+    margin-bottom: -5px;
+}
+
+#ctl00_MainContentPlaceHolder_C002_rgNewsResults {
+	border: medium none #FFFFFF;
+}
+
+#MainContentPlaceHolder_C000_RadAjaxManager1SU {
+	margin-bottom: 20px;	
+}
+
+/* CSS CLASS AS ID */
+
+.companyProfileImg {
+    margin-left: -30px;
+    margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.companyHistoryImg {
+	height: 227px;	
+}
+
+.companyHistoryObj {
+    height: 455px;
+    margin-top: -20px;
+}
+
+.customerCovenantImg {
+	margin-left: -30px;	
+	margin-bottom: 40px;
+}
+
+.customerCovenantBlurb {
+	color: #666666;
+	margin: -70px 8px 25px -50px;
+    text-align: center;
+}
+
+.customerCovenantBob {
+	margin-bottom: 15px;
+}
+
+.guidingPrinciplesImg {
+	margin-left: -20px;
+	margin-bottom: 20px;	
+}
+
+.leadershipImg {
+	height: 227px;	
+}
+
+.leadershipBlurb {
+	color: #666666;
+	margin: -70px 8px 25px 0px;
+    text-align: center;	
+}
+
+.safetyCovenantBlurb {
+	color: #666666;
+	margin: -70px 8px 25px 25px;
+    text-align: center;
+}
+
+.safetyCovenantTxt {
+	margin: 10px 20px;
+}
+
+/* GENERAL STYLES */
+
+a, a:visited {
+	color: #3D3D3D;
+}
+
+a:hover {
+	color: #e31937;	
+}
+
+.accraply h2, .accraply a:hover, span.accraply, a.accraply:hover {
+	color: #e31937; 	
+}
+
+.accraply .literature h2 {
+	background-color: #E31937;	
+}
+
+.stanford h2, .stanford a:hover, span.stanford, a.stanford:hover {
+	color: #004B85;	
+}
+
+.stanford .literature h2 {
+	background-color: #004B85;		
+}
+
+.trine h2, .trine a:hover, span.trine, a.trine:hover {
+	color: #008576; 	
+}
+
+.trine .literature h2 {
+	background-color: #008576;		
+}
+
+.graham h2, .graham a:hover, span.graham, a.graham:hover {
+	color: #002b7f;
+}
+
+.graham .literature h2 {
+	background-color: #002b7f;
+}
+
+.sleevit h2, .sleevit a:hover, span.sleevit, a.sleevit:hover {
+	color: rgb(79,33,112);
+}
+
+.sleevit .literature h2 {
+	background-color: rgb(79,33,112);
+}
+
+
+.literature h2 {
+	color: #CECECE;
+}
+
+div#superFooter {
+	margin-top: 20px;	
+}
+
+.acrobat {
+    border-collapse: collapse;
+    color: #3D3D3D;
+    font-size: 10px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.center {
+	text-align: center;	
+}
+
+.absolute {
+	position: absolute;	
+}
+
+strong {
+	font-weight: bold;	
+}
+
+.clearfloat { 
+	clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+/* GOOGLE SEARCH STYLES */
+
+.gsc-tabData.gsc-tabdActive { 
+	margin-top: -20px;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+	color: #fff !important;	
+}
+
+/* GOOGLE CHROME STYLES */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	
+	.pix_header {
+		padding: 10px 20px 11px 20px;	
+	}
+	
+}
+
+/* Career Detail Styling
+--------------------------------------------------------------------------*/
+.career-detail-styling
+{
+    margin-top: -30px;
+}
+.career-detail-styling img
+{
+    display: none;
+}
+.career-detail-styling .jobTitle
+{
+    font-size: 24px;
+    display: block;
+}
+.career-detail-styling .jobLabel
+{
+    margin-bottom: 0 !important;
+    font-weight: bold;
+    width: inherit !important;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+.career-detail-styling #MainContentPlaceHolder_C000_lblJobDescription
+{
+    display: none;
+}
+.career-detail-styling h3
+{
+    margin: 20px 0 5px;
+    font-size: 18px;
+}
+.career-detail-styling a.applyliteral
+{
+    display: inline-block;
+    padding: 5px 10px;
+    background: #e31937;
+    color: #fff !important;
+    text-transform: capitalize;
+}
+.career-detail-styling a.applyliteral:hover
+{
+    background: #3D3D3D;
+    text-decoration: none !important;
+}

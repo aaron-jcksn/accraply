@@ -1,0 +1,479 @@
+/* CSS Document */
+
+.menu {
+	width: 920px;
+	height: 39px;
+	background: url('/sfimages/accraplydesign/menu_background.jpg');
+	margin-top: 15px;
+	margin-bottom: 10px;	
+}
+
+.menu_alt {
+	width: 920px;
+	height: 35px;
+	background: url('/sfimages/accraplydesign/menu_background_alt.jpg');
+	margin-top: 15px;
+	margin-bottom: 0;	
+}
+
+.menu_accraply, 
+.menu_stanford, 
+.menu_trine, 
+.menu_graham,
+.menu_psu {
+	width: 920px;
+	height: 37px;
+	margin-bottom: 10px;	
+}
+
+.menu_accraply {
+	background: url('/sfimages/accraplydesign/menu_accraply_background.jpg');
+}
+
+.menu_stanford {
+	background: url('/sfimages/accraplydesign/menu_stanford_background.jpg');
+}
+
+.menu_trine {
+	background: url('/sfimages/accraplydesign/menu_trine_background.jpg');
+}
+
+.menu_graham {
+	background: url('/sfimages/accraplydesign/menu_graham_background.jpg');
+}
+
+.menu_psu {
+	background: url('/sfimages/accraplydesign/menu_psu_background.jpg');
+}
+
+.menu .rtsUL {
+	width: 920px;
+	height: 39px;
+	background-image: url('/sfimages/accraplydesign/menu_background_right.jpg');
+	background-position: right 0px;
+	background-repeat: no-repeat;
+}
+
+.menu_alt .rtsUL {
+	width: 920px;
+	height: 35px;
+	background-image: url('/sfimages/accraplydesign/menu_background_right_alt.jpg');
+	background-position: right 0px;
+	background-repeat: no-repeat;	
+}
+
+.menu_accraply .rtsUL, 
+.menu_stanford .rtsUL, 
+.menu_trine .rtsUL, 
+.menu_graham .rtsUL,
+.menu_psu .rtsUL {
+	width: 920px;
+	height: 37px;
+	background-position: right 0px;
+	background-repeat: no-repeat;	
+}
+
+.menu_accraply .rtsUL {
+	background-image: url('/sfimages/accraplydesign/menu_accraply_right.jpg');
+}
+
+.menu_stanford .rtsUL {
+	background-image: url('/sfimages/accraplydesign/menu_stanford_right.jpg');
+}
+
+.menu_trine .rtsUL {
+	background-image: url('/sfimages/accraplydesign/menu_trine_right.jpg');
+}
+
+.menu_graham .rtsUL {
+	background-image: url('/sfimages/accraplydesign/menu_graham_right.jpg');
+}
+
+.menu_psu .rtsUL {
+	background-image: url('/sfimages/accraplydesign/menu_psu_right.jpg');
+}
+
+.menu .rtsLI {
+	height: 39px;
+	background-image: url('/sfimages/accraplydesign/menu_divider.jpg');
+	background-position: right 0px;
+	background-repeat: no-repeat;
+}
+
+.menu_alt .rtsLI {
+	height: 39px;
+	background-image: url('/sfimages/accraplydesign/menu_divider_alt.jpg');
+	background-position: right 0px;
+	background-repeat: no-repeat;		
+}
+
+.menu .rtsLI .rtsLink {
+	margin: 0 2px 0 -2px;
+	background-image: url('/sfimages/accraplydesign/menu_background.jpg');
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.menu .rtsLI .rtsLink:hover .rtsTxt {
+    text-decoration: none;
+}
+    
+
+.menu_alt .rtsLI .rtsLink {
+	margin: 0 2px 0 -2px;
+	background-image: url('/sfimages/accraplydesign/menu_background_alt.jpg');
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-family: Verdana,Arial,Helvetica,sans-serif;	
+}
+
+.menu_alt .rtsLI .rtsLink:hover .rtsTxt {
+    text-decoration: none;
+}
+
+.menu_accraply .rtsLI .rtsLink, 
+.menu_stanford .rtsLI .rtsLink, 
+.menu_trine .rtsLI .rtsLink, 
+.menu_graham .rtsLI .rtsLink,
+.menu_psu .rtsLI .rtsLink {
+	/* margin: 0 2px 0 -2px; */
+	background-position: 0px 0px;
+	background-repeat: repeat-x;	
+}
+
+.menu_accraply .rtsLI .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_accraply_background.jpg');
+}
+
+.menu_stanford .rtsLI .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_stanford_background.jpg');
+}
+
+.menu_trine .rtsLI .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_trine_background.jpg');
+}
+
+.menu_graham .rtsLI .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_graham_background.jpg');
+}
+
+.menu_psu .rtsLI .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_psu_background.jpg');
+}
+
+.menu .rtsLI .rtsLink:hover, 
+.menu .rtsLI .rtsSelected {
+	background-image: url('/sfimages/accraplydesign/menu_background_selected.jpg');
+	background-position: 0px 0px !important;
+}
+
+.menu_alt .rtsLI .rtsLink:hover /*, 
+.menu_alt .rtsLI .rtsSelected */ {
+	background-image: url('/sfimages/accraplydesign/menu_background_selected_alt.jpg');
+}
+
+.menu .RadTabStrip_Default .rtsLevel .rtsOut, 
+.menu_alt .RadTabStrip_Default .rtsLevel .rtsOut {
+	background: none;
+}
+
+.menu .RadTabStrip .rtsLevel1 .rtsTxt, 
+.menu_alt .RadTabStrip .rtsLevel1 .rtsTxt {
+	color: #cecece;
+	font-size: 12px;
+	padding: 7px 0px;		
+}
+
+.menu_accraply .RadTabStrip .rtsLevel1 .rtsTxt,
+.menu_stanford .RadTabStrip .rtsLevel1 .rtsTxt,
+.menu_trine .RadTabStrip .rtsLevel1 .rtsTxt,
+.menu_graham .RadTabStrip .rtsLevel1 .rtsTxt,
+.menu_psu .RadTabStrip .rtsLevel1 .rtsTxt {
+	color: #cecece;
+	font-size: 11px;
+	padding: 10px 0px;		
+}
+
+.menu_accraply .RadTabStrip .rtsLevel1 .rtsLI .rtsLink:hover .rtsTxt,
+.menu_stanford .RadTabStrip .rtsLevel1 .rtsLI .rtsLink:hover .rtsTxt,
+.menu_trine .RadTabStrip .rtsLevel1 .rtsLI .rtsLink:hover .rtsTxt,
+.menu_graham .RadTabStrip .rtsLevel1 .rtsLI .rtsLink:hover .rtsTxt {
+	color: #222222;	
+}
+
+.menu_psu .RadTabStrip .rtsLevel1 .rtsLI .rtsLink:hover .rtsTxt {
+	color: #b0b0b0;
+}
+
+.menu .RadTabStripTop_Sitefinity .rtsLink, 
+.menu .RadTabStripTop_Sitefinity .rtsOut, 
+.menu .RadTabStripTop_Sitefinity .rtsIn, 
+.menu .RadTabStripBottom_Sitefinity .rtsLink, 
+.menu .RadTabStripBottom_Sitefinity .rtsOut, 
+.menu .RadTabStripBottom_Sitefinity .rtsIn {
+	background: none;
+}
+
+.menu .rtsFirst .rtsLink, 
+.menu_alt .rtsFirst .rtsLink {
+	margin: 0;
+	background: none;	
+}
+
+.menu .rtsFirst a {
+	width: 54px;
+	height: 39px;
+	margin: 0;
+	padding: 0;	
+}
+
+.menu_alt .rtsFirst a {
+	width: 54px;
+	height: 39px;
+	margin: 0;
+	padding: 0;	
+}
+
+.menu_accraply .rtsFirst a,
+.menu_stanford .rtsFirst a,
+.menu_trine .rtsFirst a,
+.menu_graham .rtsFirst a,
+.menu_psu .rtsFirst a {
+	height: 37px;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.menu .rtsFirst .rtsLink {
+	background-image: url('/sfimages/accraplydesign/home.jpg');		
+}
+
+.menu_alt .rtsFirst .rtsLink {
+	background-image: url('/sfimages/accraplydesign/home_alt.jpg');		
+}
+
+.menu_accraply .rtsFirst .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_accraply_left.jpg');
+	background-repeat: no-repeat;		
+}
+
+.menu_stanford .rtsFirst .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_stanford_left.jpg');
+	background-repeat: no-repeat;		
+}
+
+.menu_trine .rtsFirst .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_trine_left.jpg');
+	background-repeat: no-repeat;		
+}
+
+.menu_graham .rtsFirst .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_graham_left.jpg');
+	background-repeat: no-repeat;		
+}
+
+.menu_psu .rtsFirst .rtsLink {
+	background-image: url('/sfimages/accraplydesign/menu_psu_left.jpg');
+	background-repeat: no-repeat;		
+}
+
+.menu .rtsFirst .rtsLink:hover, 
+.menu .rtsFirst .rtsSelected {
+	background-image: url('/sfimages/accraplydesign/home_selected.jpg');
+	background-position: 0px !important;
+}
+
+.menu_alt .rtsFirst .rtsLink:hover, 
+.menu_alt .rtsFirst .rtsSelected {
+	background-image: url('/sfimages/accraplydesign/home_selected_alt.jpg');	
+}
+
+.menu .rtsFirst .rtsTxt, 
+.menu_alt .rtsFirst .rtsTxt {
+	/* display: none; */
+}
+
+/* SIDEBAR MENU LIST */
+
+.sidebar .submenu {
+	font-size: 9px;	
+	text-align: left;
+	color: #69696A;
+}
+
+.sidebar .submenu .RadTabStripVertical {
+	width: 100%;	
+}
+
+.sidebar .submenu h3 {
+	margin: 0 0 10px 15px;	
+	color: #cecece;
+	text-decoration: underline;
+	font-size: 150%;
+}
+
+.sidebar .submenu .RadTabStripVertical .rtsLI a {
+	margin: 0 0 5px 0;
+}
+
+.sidebar .submenu .rtsLI a, .sidebar .submenu .rtsLI a:visited {
+	color: #cecece;
+	text-decoration: none;
+	text-align: left;
+}
+
+.sidebar .submenu .rtsLI a:hover {
+	color: #e31937; 
+}
+
+/* Stanford */
+.sidebar .submenu .rtsLI a[href="doctor-machines"]:hover,
+.sidebar .submenu .rtsLI a[href*="doctor-machines"]:hover,
+.sidebar .submenu .rtsLI a[href="shrink-sleeve-label-finishing"]:hover,
+.sidebar .submenu .rtsLI a[href*="shrink-sleeve-label-finishing"]:hover,
+.sidebar .submenu .rtsLI a[href="slitter-rewinders"]:hover,
+.sidebar .submenu .rtsLI a[href*="slitter-rewinders"]:hover,
+.sidebar .submenu .rtsLI a[href="custom-upgrades"]:hover,
+.sidebar .submenu .rtsLI a[href="*custom-upgrades"]:hover {
+	color: #004B85;	
+}
+
+/* Trine */
+.sidebar .submenu .rtsLI a[href="roll-fed-systems"]:hover,
+.sidebar .submenu .rtsLI a[href*="roll-fed-systems"]:hover,
+.sidebar .submenu .rtsLI a[href="improved-bottle-handling"]:hover,
+.sidebar .submenu .rtsLI a[href="*improved-bottle-handling"]:hover,
+.sidebar .submenu .rtsLI a[href="improved-label-handling"]:hover,
+.sidebar .submenu .rtsLI a[href="*improved-label-handling"]:hover,
+.sidebar .submenu .rtsLI a[href="extended-machine-life"]:hover,
+.sidebar .submenu .rtsLI a[href="*extended-machine-life"]:hover,
+.sidebar .submenu .rtsLI a[href="other-upgrades"]:hover,
+.sidebar .submenu .rtsLI a[href="*other-upgrades"]:hover {
+	color: #008576;
+}
+
+/* Graham */
+.sidebar .submenu .rtsLI a[href="shrink-sleeve-label-applicators"]:hover,
+.sidebar .submenu .rtsLI a[href="*shrink-sleeve-label-applicators"]:hover,
+.sidebar .submenu .rtsLI a[href="graham-pressure-sensitive-systems"]:hover,
+.sidebar .submenu .rtsLI a[href="*graham-pressure-sensitive-systems"]:hover,
+.sidebar .submenu .rtsLI a[href="shrink-sleeve-tunnels"]:hover,
+.sidebar .submenu .rtsLI a[href="*shrink-sleeve-tunnels"]:hover,
+.sidebar .submenu .rtsLI a[href="graham-general-upgrades"]:hover,
+.sidebar .submenu .rtsLI a[href="*graham-general-upgrades"]:hover {
+	color: #8095bf;
+}
+
+.sidebar .submenu .rtsLI a.rtsSelected {
+	color: #e31937; 
+	font-weight: bold;	
+}
+
+/* Stanford */
+.sidebar .submenu .rtsLI a[href="doctor-machines"].rtsSelected,
+.sidebar .submenu .rtsLI a[href*="doctor-machines"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="shrink-sleeve-label-finishing"].rtsSelected,
+.sidebar .submenu .rtsLI a[href*="shrink-sleeve-label-finishing"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="slitter-rewinders"].rtsSelected,
+.sidebar .submenu .rtsLI a[href*="slitter-rewinders"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="custom-upgrades"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*custom-upgrades"].rtsSelected {
+	color: #004B85;	 
+}
+
+/* Trine */
+.sidebar .submenu .rtsLI a[href="roll-fed-systems"].rtsSelected,
+.sidebar .submenu .rtsLI a[href*="roll-fed-systems"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="improved-bottle-handling"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*improved-bottle-handling"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="improved-label-handling"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*improved-label-handling"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="extended-machine-life"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*extended-machine-life"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="other-upgrades"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*other-upgrades"].rtsSelected {
+	color: #008576;
+}
+
+/* Graham */
+.sidebar .submenu .rtsLI a[href="shrink-sleeve-label-applicators"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*shrink-sleeve-label-applicators"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="graham-pressure-sensitive-systems"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*graham-pressure-sensitive-systems"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="shrink-sleeve-tunnels"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*shrink-sleeve-tunnels"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="graham-general-upgrades"].rtsSelected,
+.sidebar .submenu .rtsLI a[href="*graham-general-upgrades"].rtsSelected  {
+	color: #8095bf;	
+}
+
+/* NEW SUBMENU LINKS SIDEBAR */
+
+.sidebar .links {
+	background: #3b3b3b;	
+	margin: -9px 0;
+}
+.sidebar .links .top {
+	width: 197px;
+	height: 60px;
+	background: url('/sfimages/accraplydesign/sidebar_top.png?Status=Master') right no-repeat;
+}
+.sidebar .links .top h3 {
+	text-align: center;
+	color: #b8b8b8;
+	text-decoration: underline;
+	margin: 0;
+    padding: 20px 0;	
+	font-weight: bold;
+	font-size: 14px;
+}
+.sidebar .links .bottom {
+	width: 197px;
+	height: 60px;
+	background: url('/sfimages/accraplydesign/sidebar_bottom.png?Status=Master') right no-repeat;
+}
+.sidebar .links ul {
+	width: 197px;
+	margin: 0;
+	padding: 0;	
+}
+.sidebar .links ul li {
+	list-style: none;	
+}
+.sidebar .links ul li a {
+	color: #b8b8b8;
+	background: url('/sfimages/accraplydesign/sidebar_button.png?Status=Master') right no-repeat;
+	padding: 10px 15px 7px 0px;
+	line-height: 20px;
+	font-size: 12px;
+	vertical-align: middle;
+	display: block;
+	text-decoration: none;
+}
+
+.sidebar .links .rtsLI a, .sidebar .links .rtsLI a:visited, .sidebar .links .rtsLI a:hover {
+	text-decoration: none !important;
+}
+
+.sidebar .links ul li a:hover {
+	color: #cecece;	
+	background: url('/sfimages/accraplydesign/sidebar_button_depressed.png?Status=Master') right no-repeat;
+}
+
+.sidebar .links div.RadTabStripLeft_Sitefinity .rtsOut, .sidebar .links div.RadTabStripRight_Sitefinity .rtsOut,
+.sidebar .links .RadTabStrip .rtsLevel1 .rtsTxt, .sidebar .links .RadTabStripVertical .rtsLevel1 .rtsTxt,
+.sidebar .links .RadTabStrip .rtsOut, .sidebar .links .RadTabStripVertical .rtsOut,
+.sidebar .links .RadTabStrip .rtsIn, .sidebar .links .RadTabStripVertical .rtsIn {
+	margin: 0;
+	padding: 0;	
+}
+
+.sidebar .links .RadTabStripLeft_Sitefinity .rtsLast .rtsLink, .sidebar .links .RadTabStripRight_Sitefinity .rtsLast .rtsLink {
+	border: none;	
+}
+
+/* DEFAULT MENU OVERRIDE */
+.RadTabStripTop_Sitefinity .rtsLink, .RadTabStripTop_Sitefinity .rtsOut, .RadTabStripTop_Sitefinity .rtsIn, .RadTabStripBottom_Sitefinity .rtsLink, .RadTabStripBottom_Sitefinity .rtsOut, .RadTabStripBottom_Sitefinity .rtsIn { background-image: none; }

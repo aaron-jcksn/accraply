@@ -1,0 +1,695 @@
+@import url(../Fonts/stylesheet.css);
+
+/* Base
+--------------------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body#base  {
+    width: 100%;
+    font-family: 'museo_sans300', Verdana;
+    font-size: 11pt;
+    line-height: 22px;
+    color: #999;
+    background: #5c6670 !important;
+    margin: 0;
+    padding: 0;
+}
+body#base a {
+    color: #ff3a1e;
+    text-decoration: none;
+    cursor: pointer;
+}
+body#base a:hover {
+    color: #5c6670;
+    text-decoration: none;
+}
+body#base a img {
+    border: 0;
+}
+::selection {
+    background: #ff3a1e;
+    color: #fff;
+}
+body#base .sfContentBlock p {
+	margin: 20px 0 0;
+}
+strong {
+    font-weight: normal;
+    font-family: 'museo_sans500', Verdana;
+    color: #5c6670;
+}
+em {
+    font-family: 'museo_sans300_italic';
+    font-style: normal;
+}
+strong em, em strong {
+    font-family: 'museo_sans500_italic';
+    font-weight: normal;
+    color: #5c6670;
+}
+ol {
+    margin: 10px 0 0 20px;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+body#base .sfitemDetails .sfitemRichText {
+	line-height: 22px;
+}
+input[type=submit] {
+	background: #efeff0;
+	padding: 10px 20px !important;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	color: #999;
+	text-transform: uppercase;
+	font-family: 'museo_sans700';
+	font-size: 12pt !important;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background: #ff3a1e;
+	color: #fff;
+	border: 1px solid #ff3a1e;
+}
+blockquote {
+	margin-left: 15px !important;
+}
+
+
+/* Super Header
+--------------------------------------------------------------------------*/
+.toggle-button, .search-header {
+	z-index: 1001;
+}
+.menu-wrapper, .network-wrapper {
+	z-index: 1000;
+}
+
+
+/* Body Header
+--------------------------------------------------------------------------*/
+#body-header {
+	padding-left: 20px;
+}
+
+
+/* Body Header > Logo
+--------------------------------------------------------------------------*/
+#body-header .sf_2cols_1_50 {
+	width: 70% !important;
+}
+
+
+/* Body Header > Navigation
+--------------------------------------------------------------------------*/
+#body-header .sf_2cols_2_50 {
+	width: 30% !important;
+}
+
+
+/* Navigation
+--------------------------------------------------------------------------*/
+.sfNavToggle {
+	width: 40px;
+	height: 40px;
+	padding: 9px;
+	transition: .25s;
+	z-index: 150;
+    background: #ff3a1e;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+.top-header .sfNavToggle {
+    top: 10px;
+}
+.sfNavToggle:hover {
+	cursor: pointer;
+}
+.menu-bar {
+	position: absolute;
+	border-radius: 2px;
+	width: 50%;
+	transition: .5s;
+}
+.menu-bar-top {
+	border: 4px solid #ffffff;
+	border-bottom: none;
+	top: 10px;
+}
+.menu-bar-middle {
+	height: 4px;
+	background-color: #ffffff;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	top: 10px;
+}
+.menu-bar-bottom {
+	border: 4px solid #ffffff;
+	border-top: none;
+	top: 24px;
+}
+#body-header ul.sfShown {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 140px;
+	left: 0;
+	background: #5c6670;
+	border: none;
+	text-align: center;
+	z-index: 1000;
+}
+#body-header ul.sfShown li {
+	background: none;
+	border: none;
+	margin: 0 !important;
+	width: 100%;
+}
+#body-header ul.sfShown li a {
+	color: #fff !important;
+	font-size: 14pt;
+	height: auto;
+	line-height: initial;
+	padding: 10px 0 !important;
+	display: block !important;
+	border: none !important;
+	text-transform: capitalize !important;
+}
+#body-header ul.sfShown li a:hover, #body-header ul.sfShown li a.sfSel:hover {
+	background: #5c666f;
+}
+#body-header ul.sfShown li:nth-child(2) ul.k-menu-group {
+	display: block !important;
+	margin: 0;
+	border: none;
+	background: #6b767f;
+}
+#body-header ul.sfShown li ul.k-menu-group {
+	display: none !important;
+}
+#body-header ul.sfShown li a.sfSel {
+	background: none;
+	font-weight: normal;
+}
+
+
+/* Breadcrumb Bar
+--------------------------------------------------------------------------*/
+#breadcrumb-bar {
+	display: none;
+}
+
+
+/* Home Slider > OLD
+--------------------------------------------------------------------------*/
+#home-slider {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#home-slider .galleria-container {
+	width: 100% !important;
+	height: 300px !important;
+	background: none;
+}
+#home-slider .galleria-image img {
+	width: auto !important;
+	height: auto !important;
+	left: 0 !important;
+	max-width: initial !important;
+	min-height: 100%;
+	min-width: 100%;
+}
+#home-slider .galleria-info {
+	position: relative;
+}
+#home-slider .galleria-info-title {
+	font-size: 20pt;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 90%;
+	text-align: center;
+	position: relative;
+}
+#home-slider .galleria-info-description {
+	font-size: 12pt;
+	text-align: center;
+}	
+#home-slider .galleria-image-nav-left, #home-slider .galleria-image-nav-right {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+#home-slider .galleria-image-nav {
+	top: 100px;
+	height: 40px;
+}
+
+
+/* Home Slider
+--------------------------------------------------------------------------*/
+#home-slider {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+#home-slider .slides li {
+	height: 300px;
+	overflow: hidden;
+}
+#home-slider .slide-words {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.2);
+}
+#home-slider .slide-words div {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	position: relative;
+	top: 25%;
+}
+#home-slider .slide-words h1 {
+	font-size: 20pt;
+}
+#home-slider .slide-words a {
+	font-size: 12pt;
+}
+#home-slider .flexslider {
+	height: 300px;
+}
+#home-slider .flex-direction-nav a {
+	width: 40px;
+}
+
+
+/* Home Slider > Image
+--------------------------------------------------------------------------*/
+#home-slider .sfContentBlock .home-inner {
+    width: 90%;
+}
+#home-slider .sfContentBlock .home-inner h1 {
+    font-size: 30pt;
+}
+#home-slider .sfimageWrp {
+    height: 100%;
+}
+#home-slider .sfimageWrp img {
+    width: auto;
+    max-width: inherit;
+    height: 100%;
+}
+
+
+/* Home
+--------------------------------------------------------------------------*/
+#body-main.home .wrapper {
+	padding-bottom: 30px;
+}
+
+
+/* Home > Home Search
+--------------------------------------------------------------------------*/
+#body-main .home-search {
+	width: 100%;
+	height: 110px;
+	padding: 20px 0;
+	background: #ff3a1e;
+	text-align: center;
+	position: relative;
+	top: -75px;
+	z-index: 10;
+}
+#body-main .home-search .sfContentBlock {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'museo_sans500';
+	font-size: 14pt;
+}
+#body-main .home-search-new {
+    top: 0;
+    margin-bottom: 0;
+}
+#body-main .home-search-new select {
+    width: 80%;
+}
+
+
+/* Home > Home Thirds
+--------------------------------------------------------------------------*/
+#body-main .home-thirds {
+	margin-top: 0;
+}
+#body-main .home-thirds.negative {
+	/* margin-top: -65px; */
+}
+#body-main .home-thirds .sf_colsIn {
+	margin: 20px 20px 0 !important;
+}
+#body-main .home-thirds .sfimageWrp img {
+	width: auto;
+	height: 100%;
+}
+
+
+/* Home > About Us
+--------------------------------------------------------------------------*/
+#body-main.home .section-white:nth-child(2) .wrapper, #body-main.home .section-white:nth-child(4) .wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+#body-main.home .section-white .sfimageWrp img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Body Main
+--------------------------------------------------------------------------*/
+#body-main {
+	background: #efeff0;
+	position: relative;
+}
+
+
+/* Body Main > Secondary
+--------------------------------------------------------------------------*/
+#body-main .section-top {
+	padding: 0;
+}
+#body-main .section-top .sfimageWrp {
+	height: 300px;
+}
+#body-main .section-top .sfContentBlock {
+	background: #fff;
+	padding: 30px;
+}
+#body-main .section-white {
+	background: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+#body-main .section-gray {
+	background: #5c6670;
+	padding: 30px 0;
+	color: #fff;
+	text-align: center;
+}
+#body-main .section-white .sfContentBlock p, #body-main .section-gray .sfContentBlock p {
+	margin: 0;
+}
+#body-main .section-standard {
+	background: #efeff0;
+	padding: 1px 0 0;
+}
+#body-main .section-standard .wrapper {
+	background: #fff;
+	width: 100%;
+	padding: 30px;
+}
+#body-main .section-top .section-standard.sales-maps {
+	padding: 0;
+}
+#body-main .section-top .section-standard.sales-maps .sfContentBlock {
+	padding: 0;
+}
+
+
+/* Body Main > Header Tags
+--------------------------------------------------------------------------*/
+#body-main h1 {
+	color: #ff3a1e;
+	text-transform: uppercase;
+	font-family: 'museo_sans500';
+	font-weight: normal;
+	font-size: 24pt;
+}
+#body-main h2 {
+	color: #ff3a1e;
+	margin: 30px 0 0;
+	font-weight: normal;
+	font-family: 'museo_sans500';
+	font-size: 18pt;
+}
+#body-main h2:first-child {
+	margin: 0;
+}
+
+
+/* Sales Maps > Territories
+--------------------------------------------------------------------------*/
+.territory-description {
+	background: #5c6670;
+	color: #fff;
+	padding: 20px;
+	margin: 30px 0;
+}
+.territory-contacts ul li {
+	width: 100%;
+	display: block;
+	float: none;
+	padding: 0;
+}
+.territory-contacts .contact-photo {
+	display: none;
+}
+
+
+/* Product Lines
+--------------------------------------------------------------------------*/
+.product-lines-listing .sf_colsOut {
+	margin: 0 !important;
+	padding: 10px;
+	width: 50% !important;
+}
+.product-lines-listing .sfimageWrp img {
+	left: 50%;
+}
+
+
+/* Body Main > Machine Listing
+--------------------------------------------------------------------------*/
+.machine-list li {
+	width: 33%;
+	display: block;
+}
+
+
+/* Body Main > Machine Detail
+--------------------------------------------------------------------------*/
+#body-main .section-detail {
+	padding: 1px 0;
+}
+
+
+/* Body Main > Machine Detail > Left Side (Image, Links)
+--------------------------------------------------------------------------*/
+#body-main .section-detail .sfdetails > table > tbody > tr > td:first-child {
+	width: 100%;
+	display: block;
+}
+
+
+/* Body Main > Machine Detail > Right Side (Title, Description)
+--------------------------------------------------------------------------*/
+#body-main .section-detail .sfdetails > table > tbody > tr > td:nth-child(2) {
+	width: 100%;
+	display: block;
+}
+
+
+/* Literature
+--------------------------------------------------------------------------*/
+.literature {
+	margin-top: -30px;	
+}
+.literature h2 { 
+    margin: 40px 0 10px !important;
+    padding: 0;
+}
+.literature li {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+.literature .RadGrid_Default {
+	border: none;
+}
+.literature table.rgMasterTable {
+	font-family: 'museo_sans300';
+	font-size: 14px;
+}
+.literature th.rgHeader {
+	background: #5c6670;
+	color: #fff;
+	border: none;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	cursor: initial;
+}
+.literature tr:nth-child(even) {
+	background: #efeff0;
+}
+.literature .sfdownloadTable tbody td {
+	border: none;
+	padding: 0;
+	line-height: 40px;
+	height: 40px;
+	text-align: left;
+}
+.literature .sfdownloadTable tbody td.sfdownloadTitle, .literature th.sfdownloadTitle {
+	padding-left: 10px;
+}
+.literature .sfdownloadSize {
+	display: none;
+}
+.literature .sfdownloadTitle {
+	width: 70% !important;
+}
+.literature .sfdownloadCell {
+	width: 30%;
+}
+
+
+/* Careers (iframe)
+--------------------------------------------------------------------------*/
+.sfPublicWrapper tr th:first-child, .sfPublicWrapper tr td:first-child {
+	text-indent: 10px;
+	display: block;
+}
+.sfPublicWrapper tr th, .sfPublicWrapper tr td {
+	display: none;
+}
+
+
+/* Accraply Forms
+--------------------------------------------------------------------------*/
+.accraply-forms h2.sfFormTitle {
+	border-bottom: 2px solid #ff3a1e;
+	text-align: center;
+	margin: 40px 0 20px !important;
+}
+.accraply-forms .sfFormBox, .accraply-forms .sfFormDropdown, .accraply-forms .sfFormRadiolist, .accraply-forms .sfFormCheckboxlist {
+	margin: 0 0 10px 25px;
+}
+.accraply-forms .sfTxtLbl {
+	float: left;
+	font-weight: normal !important;
+	font-family: 'museo_sans500';
+	padding-right: 10px;
+	text-align: right;
+	width: 40%;
+}
+.accraply-forms .sfFieldWrp {
+	display: inline;
+	margin-left: 10px;
+}
+.accraply-forms .sfCheckListBox, .accraply-forms .sfRadioList {
+	display: block;
+	padding-left: 41%;
+}
+.accraply-forms .sfRadioList label, .accraply-forms .sfFormCheckboxlist label {
+	margin-right: 15px;
+}
+.accraply-forms .sfRadioList input, .accraply-forms .sfFormCheckboxlist input {
+	margin-right: 4px;
+}
+.accraply-forms .sfExample {
+	display: inline;
+	font-size: 10px;
+	margin-left: 10px;
+	color: #888;
+}
+.accraply-forms .sfFormBlock textarea {
+	width: 98%;
+}
+.accraply-forms .sfFormInstructions {
+	text-align: center;
+	margin-top: 30px;
+}
+.accraply-forms .sfFormSubmit {
+	text-align: center;
+}
+
+
+/* Social Links
+--------------------------------------------------------------------------*/
+#social-links {
+    height: 80px;
+	background: #5c6670;
+}
+#social-links .sf_2cols_1_50 {
+	width: 100% !important;
+}
+#social-links ul {
+    float: none;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+	margin: 20px 0;
+	height: 40px;
+	display: inline-flex;
+}
+#social-links ul li {
+    margin: 0 2px;
+}
+body#base #social-links ul li a {
+	background: #ff3a1e;
+}
+body#base #social-links ul li a:hover {
+	background: #efeff0;
+	color: #5c6670;
+}
+
+
+/* Footer
+--------------------------------------------------------------------------*/
+footer {
+    display: none;
+}
+
+
+/* Bottom Footer
+--------------------------------------------------------------------------*/
+#bottom-footer {
+    background: #fff;
+    height: 60px;
+	line-height: 60px;
+    width: 100%;
+	overflow: hidden;
+}
+
+
+/* Contact Styling
+--------------------------------------------------------------------------*/
+.sfContentBlock h1.contact-header {
+	line-height: .9;
+}
+.contact-info ul li {
+	list-style: none;
+}
+.contact-info .contact-title {
+	font-weight: bolder;
+	font-size: 12pt;
+}
+#body-main .section-top .contact-map .sfContentBlock {
+	padding: 0;
+	background: transparent;
+	line-height: 0;
+}
