@@ -1140,7 +1140,7 @@ body#base #breadcrumb-bar a:hover {
 }
 
 .carousel-caption {
-	z-index: 4;
+	z-index: 3;
     top: 30%;
     left: 50%;
     transform: translate(-50%, 0);
