@@ -296,6 +296,10 @@ header {
 	border: none !important;
 }
 
+.main-sticky-nav .sfSel {
+	color: #5b6670 !important;
+}
+
 /* Super Header > Navigation Slide Out
 --------------------------------------------------------------------------*/
 /* .menu-wrapper {
